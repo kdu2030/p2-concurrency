@@ -26,7 +26,7 @@ from bokeh.plotting import figure, show, output_file
 from bokeh.io import export_png
 from bokeh.layouts import row, column
 
-MAX_CORE = 9 # will not plot any data above this core count
+MAX_CORE = 21 # will not plot any data above this core count
 
 # return: a list of dicts
 def parse_trace(f):
@@ -128,4 +128,4 @@ output_file("res.html", title="res")
 pp.legend.location = "top_left"
 pp.legend.click_policy="hide"
 
-show(pp)
+#show(pp)
