@@ -173,15 +173,11 @@ void* thread_func(void* thread_id){
 						// line, the whole loop still takes long. see i5-padding-quirks.txt
 							//SortedList_insert(&lists[id], &elements[i]);
 						//SortedList_insert(&lists[id], get_element(i));
-                        SortedList_insert(&lists[id], get_element(i));
+                        SortedList_insert_optimized(&lists[id], get_element(i), &sublist_lengths[id]);
 
 //						if(the_config.mutexFlag)
 //								pthread_mutex_unlock(&mutexes[id]);
 					}
-                
-                #if defined(USE_MULTILISTS) && defined(USE_LB) && defined(USE_PADDING)
-                    sublist_lengths[id] += ((per_part * (part + 1)) - (per_part * part));
-                #endif
     			vtune_task_end();
     	}
     }
@@ -308,12 +304,13 @@ int main(int argc, char** argv) {
 #else
 			for(int i = 0; i < 1; i++) {
 #endif
-                    #if defined(USE_MULTILISTS) && defined(USE_LB) && defined(USE_PADDING)
-					    int ll = sublist_lengths[i];
-                    #else
-                        int ll = SortedList_length(&lists[i]);
-                    #endif
-
+					int ll = SortedList_length(&lists[i]);
+                    
+                    int length = 0;
+                    for(int j=0; j < numThreads; i++){
+                        length += sublist_lengths[i];
+                    }
+                    fprintf(stderr, "Calculated List items: %d \n", length);
 					fprintf(stderr, "list %d: %d items; ", i, ll);
 					total += ll;
 			}

@@ -3,8 +3,8 @@
 
 # TODO: Switch between the following two to disable/enable VTUNE profiling
 #VTUNE="vtune -collect hotspot -knob sampling-mode=hw"
-# VTUNE= 
-VTUNE="vtune -collect uarch-exploration"
+VTUNE= 
+#  VTUNE="vtune -collect uarch-exploration"
 
 # TODO: Switch among the following three for # of iterations
 #ITER=10k  # small

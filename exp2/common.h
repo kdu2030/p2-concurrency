@@ -46,6 +46,8 @@ typedef struct SortedListElement SortedList_t;
  */
 void SortedList_insert(SortedList_t *list, SortedListElement_t *element);
 
+void SortedList_insert_optimized(SortedList_t* list, SortedListElement_t* element, int* sublist_length);
+
 
 /**
  * SortedList_length ... count elements in a sorted list

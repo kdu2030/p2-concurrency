@@ -30,6 +30,19 @@ void SortedList_insert(SortedList_t *list, SortedListElement_t *element) {
     curr->prev = element;
 }
 
+void SortedList_insert_optimized(SortedList_t *list, SortedListElement_t *element, int* sublist_length){
+    if (!list || !element) {
+        return;
+    }
+
+    SortedListElement_t *curr = list->next;
+    element->prev = curr->prev;
+    element->next = curr;
+    curr->prev->next = element;
+    curr->prev = element;
+    *sublist_length = *sublist_length + 1;
+}
+
 
 int SortedList_delete(SortedListElement_t *element){
     if ((element->next->prev != element) || (element->prev->next != element)) {

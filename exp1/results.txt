@@ -1,0 +1,144 @@
+Trial 0 Threads: 10
+test=add-none threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=27501110 avgTime(ns)=13 count=-120492
+test=add-m threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=376604750 avgTime(ns)=188 count=0
+test=add-s threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=1151210677 avgTime(ns)=575 count=0
+test=add-c threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=206156497 avgTime(ns)=103 count=0
+
+Trial 0 Threads: 50
+test=add-none threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=185404911 avgTime(ns)=18 count=-271338
+test=add-m threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=1875628098 avgTime(ns)=187 count=0
+test=add-s threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=27821119031 avgTime(ns)=2782 count=0
+test=add-c threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=1089191106 avgTime(ns)=108 count=0
+
+Trial 0 Iterations 10000
+test=add-none threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=3164310 avgTime(ns)=15 count=13857
+test=add-m threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=29244885 avgTime(ns)=146 count=0
+test=add-s threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=82052214 avgTime(ns)=410 count=0
+test=add-c threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=21195533 avgTime(ns)=105 count=0
+
+Trial 0 Iterations 30000
+test=add-none threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=8017767 avgTime(ns)=13 count=-32074
+test=add-m threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=65809902 avgTime(ns)=109 count=0
+test=add-s threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=337684466 avgTime(ns)=562 count=0
+test=add-c threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=60373320 avgTime(ns)=100 count=0
+
+Trial 1 Threads: 10
+test=add-none threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=24585238 avgTime(ns)=12 count=-86184
+test=add-m threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=284056175 avgTime(ns)=142 count=0
+test=add-s threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=1593138867 avgTime(ns)=796 count=0
+test=add-c threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=191843214 avgTime(ns)=95 count=0
+
+Trial 1 Threads: 50
+test=add-none threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=180942114 avgTime(ns)=18 count=-89479
+test=add-m threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=1920324125 avgTime(ns)=192 count=0
+test=add-s threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=27568592820 avgTime(ns)=2756 count=0
+test=add-c threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=1047164885 avgTime(ns)=104 count=0
+
+Trial 1 Iterations 10000
+test=add-none threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=2952768 avgTime(ns)=14 count=-15016
+test=add-m threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=33593336 avgTime(ns)=167 count=0
+test=add-s threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=95410852 avgTime(ns)=477 count=0
+test=add-c threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=20154443 avgTime(ns)=100 count=0
+
+Trial 1 Iterations 30000
+test=add-none threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=7426659 avgTime(ns)=12 count=-28749
+test=add-m threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=89782036 avgTime(ns)=149 count=0
+test=add-s threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=310127188 avgTime(ns)=516 count=0
+test=add-c threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=55391731 avgTime(ns)=92 count=0
+
+Trial 2 Threads: 10
+test=add-none threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=23072469 avgTime(ns)=11 count=-13023
+test=add-m threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=258808803 avgTime(ns)=129 count=0
+test=add-s threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=1171476090 avgTime(ns)=585 count=0
+test=add-c threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=192749233 avgTime(ns)=96 count=0
+
+Trial 2 Threads: 50
+test=add-none threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=178610278 avgTime(ns)=17 count=-92050
+test=add-m threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=1874810132 avgTime(ns)=187 count=0
+test=add-s threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=26933447390 avgTime(ns)=2693 count=0
+test=add-c threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=1033429064 avgTime(ns)=103 count=0
+
+Trial 2 Iterations 10000
+test=add-none threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=2474113 avgTime(ns)=12 count=797
+test=add-m threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=34569102 avgTime(ns)=172 count=0
+test=add-s threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=90024411 avgTime(ns)=450 count=0
+test=add-c threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=18612149 avgTime(ns)=93 count=0
+
+Trial 2 Iterations 30000
+test=add-none threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=7525593 avgTime(ns)=12 count=5241
+test=add-m threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=94943375 avgTime(ns)=158 count=0
+test=add-s threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=308625362 avgTime(ns)=514 count=0
+test=add-c threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=63825278 avgTime(ns)=106 count=0
+
+Trial 3 Threads: 10
+test=add-none threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=28251841 avgTime(ns)=14 count=-162088
+test=add-m threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=280070353 avgTime(ns)=140 count=0
+test=add-s threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=1096791308 avgTime(ns)=548 count=0
+test=add-c threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=193225097 avgTime(ns)=96 count=0
+
+Trial 3 Threads: 50
+test=add-none threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=179178321 avgTime(ns)=17 count=-223712
+test=add-m threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=1873486242 avgTime(ns)=187 count=0
+test=add-s threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=28469667189 avgTime(ns)=2846 count=0
+test=add-c threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=1085609357 avgTime(ns)=108 count=0
+
+Trial 3 Iterations 10000
+test=add-none threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=3059379 avgTime(ns)=15 count=11117
+test=add-m threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=30966628 avgTime(ns)=154 count=0
+test=add-s threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=103242344 avgTime(ns)=516 count=0
+test=add-c threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=20515044 avgTime(ns)=102 count=0
+
+Trial 3 Iterations 30000
+test=add-none threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=7604506 avgTime(ns)=12 count=-55060
+test=add-m threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=83700560 avgTime(ns)=139 count=0
+test=add-s threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=462800348 avgTime(ns)=771 count=0
+test=add-c threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=57945239 avgTime(ns)=96 count=0
+
+Trial 4 Threads: 10
+test=add-none threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=23145822 avgTime(ns)=11 count=-23852
+test=add-m threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=283853694 avgTime(ns)=141 count=0
+test=add-s threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=1015303751 avgTime(ns)=507 count=0
+test=add-c threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=194852184 avgTime(ns)=97 count=0
+
+Trial 4 Threads: 50
+test=add-none threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=189301005 avgTime(ns)=18 count=-153697
+test=add-m threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=1852116703 avgTime(ns)=185 count=0
+test=add-s threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=29462432719 avgTime(ns)=2946 count=0
+test=add-c threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=1078713647 avgTime(ns)=107 count=0
+
+Trial 4 Iterations 10000
+test=add-none threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=2853745 avgTime(ns)=14 count=3339
+test=add-m threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=30497115 avgTime(ns)=152 count=0
+test=add-s threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=105788639 avgTime(ns)=528 count=0
+test=add-c threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=18272733 avgTime(ns)=91 count=0
+
+Trial 4 Iterations 30000
+test=add-none threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=8888970 avgTime(ns)=14 count=-34348
+test=add-m threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=88514607 avgTime(ns)=147 count=0
+test=add-s threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=310005586 avgTime(ns)=516 count=0
+test=add-c threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=54260600 avgTime(ns)=90 count=0
+
+Trial 5 Threads: 10
+test=add-none threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=23039211 avgTime(ns)=11 count=-144191
+test=add-m threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=299203461 avgTime(ns)=149 count=0
+test=add-s threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=1815034257 avgTime(ns)=907 count=0
+test=add-c threadNum=10 iterations=100000 numOperation=2000000 runTime(ns)=194484115 avgTime(ns)=97 count=0
+
+Trial 5 Threads: 50
+test=add-none threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=185307963 avgTime(ns)=18 count=-132801
+test=add-m threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=1898968208 avgTime(ns)=189 count=0
+test=add-s threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=28078830318 avgTime(ns)=2807 count=0
+test=add-c threadNum=50 iterations=100000 numOperation=10000000 runTime(ns)=1101268962 avgTime(ns)=110 count=0
+
+Trial 5 Iterations 10000
+test=add-none threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=3520067 avgTime(ns)=17 count=3081
+test=add-m threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=37383467 avgTime(ns)=186 count=0
+test=add-s threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=98193085 avgTime(ns)=490 count=0
+test=add-c threadNum=10 iterations=10000 numOperation=200000 runTime(ns)=20358630 avgTime(ns)=101 count=0
+
+Trial 5 Iterations 30000
+test=add-none threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=7081853 avgTime(ns)=11 count=-14556
+test=add-m threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=94632351 avgTime(ns)=157 count=0
+test=add-s threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=351890308 avgTime(ns)=586 count=0
+test=add-c threadNum=10 iterations=30000 numOperation=600000 runTime(ns)=61688717 avgTime(ns)=102 count=0
+
