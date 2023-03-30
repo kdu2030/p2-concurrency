@@ -31,7 +31,7 @@ MAX_CORE = 9 # will not plot any data above this core count
 # return: a list of dicts
 def parse_trace(f):
 	print(f)
-	f=open(f)
+	f=open(f"/home/kd5eyn/git/p2-concurrency/exp2b-assignment/output/hashtable-10000.txt")
 	lines=f.readlines()
 	res = []
 
@@ -68,21 +68,22 @@ progs = [
 '''
 
 progs = [
-	"trace-",
-	"trace-p",
-	"trace-pm",
-	"trace-pml",
-	"trace-pmla"
+	# "trace-",
+	# "trace-p",
+	# "trace-pm",
+	# "trace-pml",
+	# "trace-pmla"
+	"hashtable-10000"
 ]
 
 
 # legends corresponding to the progs above
 legend_names = [
 	"baseline (biglock)",
-	"-p (partlists)",
-	"-pm (partlists,nomalloc)",
-	"-pml (partlists,nomalloc,nostraggler)",
-	"-pmla (partlists,nomalloc,nostraggler,nofalsesharing)"
+	# "-p (partlists)",
+	# "-pm (partlists,nomalloc)",
+	# "-pml (partlists,nomalloc,nostraggler)",
+	# "-pmla (partlists,nomalloc,nostraggler,nofalsesharing)"
 ]
 
 for progid, prog in enumerate(progs):
